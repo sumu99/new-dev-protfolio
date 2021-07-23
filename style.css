@@ -1,0 +1,54 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+}
+h1{
+   font-size: 40px;
+   color: green;
+   text-align:left;
+}
+h2{
+    font-weight: 300;
+    color: green;
+}
+.color-yellow{
+    color: rgb(228, 228, 0);
+}
+
+.red-color{
+    color: red;
+}
+.display-flex{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    padding:10px 10px ;
+    color: white;
+    font-weight: 900;
+    background-image: linear-gradient(green,red);
+    border-radius:10px ;
+}
+.top-benner-1{
+    background-image: url(images/Layer\ 3\ \(4\).png);
+    background-repeat: no-repeat;
+   
+}
+.top-benner2 {
+    background-image: url(images/Layer\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.top-benner3 {
+    background-image: url(images/Layer\ 5.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}

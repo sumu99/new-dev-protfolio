@@ -3,13 +3,14 @@ body{
     margin: 0;
 }
 h1{
-   font-size: 40px;
+   font-size: 45px;
    color: green;
    text-align:left;
 }
 h2{
     font-weight: 300;
     color: green;
+    font-size: 30px;
 }
 .color-yellow{
     color: rgb(228, 228, 0);
@@ -61,4 +62,32 @@ h2{
     background-position: left;
     background-repeat: no-repeat;
 
+}
+.information-area-benner6{
+    background-image: url(images/Layer\ 1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.dev-in-area{
+    width: 40%;
+    margin-left: 5%;
+    min-height: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px;
+
+}
+#information-ex-area{
+    border-left:7px solid;
+    border-image:linear-gradient(red, green);
+    border-image-slice:1;
+}
+h3{
+    color: rgb(160, 104, 2);
+    font-size: 20px;
+
+}
+footer p{
+    text-align: center;
 }
